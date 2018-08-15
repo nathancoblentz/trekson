@@ -1,0 +1,18 @@
+.json-table {	
+	margin-bottom: 20px;
+}
+
+.json-table thead {
+	background: lightblue;
+}
+
+
+.json-table li {
+	list-style:none;
+	margin-bottom:5px;
+}
+
+body {
+	padding-top: 100px;
+	padding-bottom:200px;
+}

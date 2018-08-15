@@ -1,0 +1,58 @@
+{
+"startrek": [
+    {
+      "series":"Star Trek: The Original Series",
+      "abbrev":"TOS",
+      "aired": "3 seasons",
+      "ship": "USS Enterprise (NCC-1701)",
+      "captain":  "William T. Kirk",
+      "best":"The Naked Time",
+      "notes":  "iconic.  legendary.  But still not as good as <em>Star Trek IV: The Voyage Home.</em>"
+    },
+    {
+      "series":"The Next Generation",
+      "abbrev":"TNG",
+      "aired": "7 seasons",
+      "ship": "USS Enterprise (NCC-1701-D)",
+      "captain":  "Jean Luc Picard",
+      "best":"Frame Of Mind",
+      "notes":  "Tea, earl grey, hot."
+    },
+    {
+      "series":"Deep Space 9",
+      "abbrev":"DS9",
+      "aired": "7 seasons",
+      "ship": "USS Defiant (2870)",
+      "captain":  "Benjamin Sisko",
+      "best":"In The Pale Moonlight",
+      "notes":  "best trek series"
+    },
+    {
+      "series":"Voyager",
+      "abbrev":"VOY",
+      "aired": "7 seasons",
+      "ship": "The USS Voyager (NCC-74656)",
+      "captain":  "Kathryn Janeway",
+      "best":"False Profits",
+      "notes":  "best doctor!  Janeway awesome too.  "
+    },
+    {
+      "series":"Enterprise",
+      "abbrev":"ENT",
+      "aired": "4 seasons",
+      "ship": "Enterprise (NX-01)",
+      "captain":  "Jonathan Archer",
+      "best":"Unexpected",
+      "notes":  "worst theme song ever.  vulcans are awesome."
+    },
+    {
+      "series":"Discovery",
+      "abbrev":"DISCO",
+      "aired": "currently airing",
+      "ship": "USS Discovery 1031",
+      "captain":  "???",
+      "best":"Despite Yourself",
+      "notes":  "Ignore the haters.  Cough up 6 bucks and binge watch Season 1!  It's good!"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TREKSON: Populating HTML Elements with JSON Data</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<div class="container">
+  <h2>Tables</h2>
+      <table class="table table-sm table-striped json-table">
+        <thead>
+          <tr>
+            <th>Series</th>
+            <th>Abbr</th>
+            <th>Aired</th>
+            <th>Ship</th>
+            <th>Captain</th>
+            <th>Best Episode</th>
+            <th>Notes</th>
+          </tr>
+          <tbody id="trektable"></tbody>
+        </thead>
+      </table>
+
+  <h2>Ordered and Unordered Lists</h2>  
+    <div class="card-body">  
+      <div class="row">
+
+        <div class="col">
+          <div class="card mb-3">
+          <h4 class="card-header">Series:</h4>
+          <div class="card-body"><ol id="series"></ol></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3">
+          <h4 class="card-header">Abbreviations:</h4>
+          <div class="card-body"><ol id="abbrev"></ol></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3">
+          <h4 class="card-header">Aired:</h4>
+          <div class="card-body"><ol id="aired"></ol></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3">
+          <h4 class="card-header">Ships:</h4>
+          <div class="card-body"><ul id="ships"></ul></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3">
+          <h4 class="card-header">Captains:</h4>
+          <div class="card-body"><ul id="captains"></ul></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3">
+          <h4 class="card-header">Best Episodes:</h4>
+          <div class="card-body"><ul id="best"></ul></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h4 class="card-header">Notes:</h4>
+        <div class="card-body">
+          <ul id="notes"></ul>
+        </div>
+      </div>
+      
+
+      
+    </div>
+  <h2>Inline Text</h2>
+  <div class="card">
+    <div class="card-body">
+      <p>The captain featured in <em>Star Trek: The Original Series</em> is <strong><span id="toscaptain"></span></strong>.  The best episode of <em>Star Trek: Enterprise</em> is <strong><span id="enterprisebest"></span></strong>.  Most of <em>Star Trek: Deep Space 9</em> takes place on a space station, but sometimes they use the <strong><span id="ds9ship"></span></strong> for away missions.</p>
+      
+    </div>
+  </div>
+  </div>
+  <br>
+
+
+
+
+    
+    </div>
+    <script src="json-tables.js"></script>
+  </body>
+</html>
